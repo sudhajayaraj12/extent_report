@@ -47,5 +47,10 @@ public class TestOne implements ITestListener{
 		Extent_Report.flushreport();
 		
 	}
+@Override
+	public void onFinish10(ITestContext context) {
+		Extent_Report.flushreport();
+		
+	}
 
 }
